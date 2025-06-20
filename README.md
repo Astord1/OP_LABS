@@ -2,10 +2,22 @@
 
 Python-бібліотека генераторів
 
-## Приклади використання
+## Запуск прикладу генераторів
 
-```python
-from generator_lib.generators import fibonacci_generator
-from generator_lib.consumer import consume_with_timeout
+```bash
+python -m examples.run_example
+```
+Або додати шлях та виконати:
+```bash
+python examples/run_example.py
+```
 
-consume_with_timeout(fibonacci_generator(), timeout_seconds=5)
+## Запуск прикладу мемоізації
+
+```bash
+python -m examples.memo_example
+```
+Або додати шлях та виконати:
+```bash
+python examples/memo_example.py
+```
