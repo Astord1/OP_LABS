@@ -41,3 +41,13 @@ python -m examples.async_map_example
 ```bash
 python examples/async_map_example.py
 ```
+
+## Запуск прикладу Large Data Processing with Async Iterators
+
+```bash
+python -m examples.run_stream_example
+```
+Або додати шлях та виконати:
+```bash
+python examples/run_stream_example.py
+```
