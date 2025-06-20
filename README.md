@@ -21,3 +21,13 @@ python -m examples.memo_example
 ```bash
 python examples/memo_example.py
 ```
+
+## Запуск прикладу Bi-Directional Priority Queue
+
+```bash
+python -m examples.priority_queue_example
+```
+Або додати шлях та виконати:
+```bash
+python examples/priority_queue_example.py
+```
