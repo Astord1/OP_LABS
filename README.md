@@ -43,3 +43,9 @@ python -m examples.run_event_example
 ```bash
 python -m examples.run_auth_proxy_example
 ```
+
+## Запуск прикладу Logging Decorator
+
+```bash
+python -m examples.run_logger_example
+```
