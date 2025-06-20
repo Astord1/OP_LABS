@@ -1,15 +1,11 @@
-# Generator Lib
+# LABS
 
-Python-бібліотека генераторів
+Лабораторна робота
 
 ## Запуск прикладу генераторів
 
 ```bash
 python -m examples.run_example
-```
-Або додати шлях та виконати:
-```bash
-python examples/run_example.py
 ```
 
 ## Запуск прикладу мемоізації
@@ -17,19 +13,11 @@ python examples/run_example.py
 ```bash
 python -m examples.memo_example
 ```
-Або додати шлях та виконати:
-```bash
-python examples/memo_example.py
-```
 
 ## Запуск прикладу Bi-Directional Priority Queue
 
 ```bash
 python -m examples.priority_queue_example
-```
-Або додати шлях та виконати:
-```bash
-python examples/priority_queue_example.py
 ```
 
 ## Запуск прикладу Async Array Map Variants
@@ -37,17 +25,21 @@ python examples/priority_queue_example.py
 ```bash
 python -m examples.async_map_example
 ```
-Або додати шлях та виконати:
-```bash
-python examples/async_map_example.py
-```
 
 ## Запуск прикладу Large Data Processing with Async Iterators
 
 ```bash
 python -m examples.run_stream_example
 ```
-Або додати шлях та виконати:
+
+## Запуск прикладу Reactive Communication with EventEmitter
+
 ```bash
-python examples/run_stream_example.py
+python -m examples.run_event_example
+```
+
+## Запуск прикладу Authentication Proxy
+
+```bash
+python -m examples.run_auth_proxy_example
 ```
