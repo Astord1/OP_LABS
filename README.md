@@ -31,3 +31,13 @@ python -m examples.priority_queue_example
 ```bash
 python examples/priority_queue_example.py
 ```
+
+## Запуск прикладу Async Array Map Variants
+
+```bash
+python -m examples.async_map_example
+```
+Або додати шлях та виконати:
+```bash
+python examples/async_map_example.py
+```
